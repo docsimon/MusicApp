@@ -3,4 +3,13 @@
     <string name="main_title">Search your favourite music </string>
     <string name="search_placeholder">insert author, song, genre, period etc... </string>
     <string name="search_button">Search</string>
+    <string name="song_title">Title</string>
+    <string name="times_played">Times played</string>
+    <string name="favourite_title">Your favourite music</string>
+    <string name="favourite_title_one">1. Hotel California</string>
+    <string name="favourite_times_one">25</string>
+    <string name="favourite_title_two">2. Beethoven 7 Symphony</string>
+    <string name="favourite_times_two">20</string>
+    <string name="favourite_title_three">3. Paganini - Caprice 24</string>
+    <string name="favourite_times_three">18</string>
 </resources>

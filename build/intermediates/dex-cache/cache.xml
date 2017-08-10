@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="54244e15ffd6d29224d63ae5dfc84117d77a2deb">
+        <dex dex="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16b8f4b98696ad8270610937fa63a16c5796aba2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dcb8f2cd96f2b400076e8b2df978e0d81e55ca50/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="8ab748d715d6c71a8f1f76407ced8a79c502d04b">
-        <dex dex="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16b8f4b98696ad8270610937fa63a16c5796aba2/classes.dex" />
     </item>
 
 </items>

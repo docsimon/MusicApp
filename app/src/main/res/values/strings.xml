@@ -25,6 +25,8 @@
     <string name="buy_minutes_button">Get unlimited minutes!</string>
     <string name="main_title_search">Results for: %1$s</string>
     <string name="result_lenght">Lenght</string>
+    <string name="search_activity_title">Search Results</string>
+
 
 
 </resources>

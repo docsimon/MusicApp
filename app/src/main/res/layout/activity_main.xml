@@ -1,114 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
-            style="@style/MainTitleTextStyle"
-            android:layout_marginBottom="16dp"
-            android:text="@string/main_title"
-            android:textColor="@color/colorTopTitle" />
-
-        <EditText
-            style="@style/SearchField"
-            android:hint="@string/search_placeholder" />
-
-        <Button
-            style="@style/SearchButton"
-            android:layout_marginBottom="16dp"
-            android:text="@string/search_button" />
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/favourite_title"
-            android:textColor="@color/colorTopTitle"
-            android:textSize="16dp"
-            android:textStyle="bold" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/favouriteTitleId"
-                style="@style/FavouriteStyle"
-                android:layout_marginBottom="8dp"
+                style="@style/MainTitleTextStyle"
+                android:layout_marginBottom="16dp"
+                android:text="@string/main_title"
+                android:textColor="@color/colorTopTitle" />
+
+            <EditText
+                style="@style/SearchField"
+                android:hint="@string/search_placeholder" />
+
+            <Button
+                android:id="@+id/search_button"
+                style="@style/SearchButton"
+                android:layout_marginBottom="16dp"
+                android:text="@string/search_button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="@string/song_title" />
+                android:layout_marginTop="16dp"
+                android:text="@string/favourite_title"
+                android:textColor="@color/colorTopTitle"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/favouriteTitleId"
+                    style="@style/FavouriteStyle"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/song_title" />
+
+                <TextView
+                    style="@style/FavouriteStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/times_played" />
+
+                <TextView
+                    android:id="@+id/favouriteTitleOne"
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_below="@id/favouriteTitleId"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/favourite_title_one" />
+
+                <TextView
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/favouriteTitleId"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/favourite_times_one" />
+
+                <TextView
+                    android:id="@+id/favouriteTitleTwo"
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_below="@id/favouriteTitleOne"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/favourite_title_two" />
+
+                <TextView
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/favouriteTitleOne"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/favourite_times_two" />
+
+                <TextView
+                    android:id="@+id/favouriteTitleThree"
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_below="@id/favouriteTitleTwo"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/favourite_title_three" />
+
+                <TextView
+                    style="@style/FavouriteMusicTitleStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/favouriteTitleTwo"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/favourite_times_three" />
+            </RelativeLayout>
 
             <TextView
-                style="@style/FavouriteStyle"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="8dp"
-                android:text="@string/times_played" />
-
-            <TextView
-                android:id="@+id/favouriteTitleOne"
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_below="@id/favouriteTitleId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="@string/favourite_title_one" />
+                android:layout_marginTop="16dp"
+                android:text="@string/free_minutes_msg"
+                android:textColor="@color/colorTopTitle"
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
-            <TextView
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/favouriteTitleId"
-                android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_one" />
+            <Button
+                style="@style/BuyButton"
+                android:layout_marginBottom="16dp"
+                android:text="@string/buy_minutes_button" />
 
-            <TextView
-                android:id="@+id/favouriteTitleTwo"
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_below="@id/favouriteTitleOne"
-                android:layout_marginLeft="8dp"
-                android:text="@string/favourite_title_two" />
+        </LinearLayout>
 
-            <TextView
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/favouriteTitleOne"
-                android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_two" />
+    </ScrollView>
 
-            <TextView
-                android:id="@+id/favouriteTitleThree"
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_below="@id/favouriteTitleTwo"
-                android:layout_marginLeft="8dp"
-                android:text="@string/favourite_title_three" />
-
-            <TextView
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/favouriteTitleTwo"
-                android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_three" />
-        </RelativeLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/free_minutes_msg"
-            android:textColor="@color/colorTopTitle"
-            android:textSize="16dp"
-            android:textStyle="bold" />
-
-        <Button
-            style="@style/BuyButton"
-            android:layout_marginBottom="16dp"
-            android:text="@string/buy_minutes_button" />
-
-
-    </LinearLayout>
-
-</ScrollView>
+</layout>

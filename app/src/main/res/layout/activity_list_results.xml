@@ -11,27 +11,8 @@
         <TextView
             style="@style/MainTitleTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/main_title"
+            android:text="@string/main_title_search"
             android:textColor="@color/colorTopTitle" />
-
-        <EditText
-            style="@style/SearchField"
-            android:hint="@string/search_placeholder" />
-
-        <Button
-            style="@style/SearchButton"
-            android:layout_marginBottom="16dp"
-            android:text="@string/search_button" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/favourite_title"
-            android:textColor="@color/colorTopTitle"
-            android:textSize="16dp"
-            android:textStyle="bold" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -48,49 +29,73 @@
                 style="@style/FavouriteStyle"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="8dp"
-                android:text="@string/times_played" />
+                android:text="@string/result_lenght" />
+
+            <!-- Result list -->
 
             <TextView
-                android:id="@+id/favouriteTitleOne"
-                style="@style/FavouriteMusicTitleStyle"
+                android:id="@+id/resultTitleOne"
+                style="@style/SearchMusicTitleStyle"
                 android:layout_below="@id/favouriteTitleId"
                 android:layout_marginLeft="8dp"
                 android:text="@string/favourite_title_one" />
 
             <TextView
-                style="@style/FavouriteMusicTitleStyle"
+                android:id="@+id/resultArtistOne"
+                style="@style/SearchResultArtistStyle"
+                android:layout_below="@id/resultTitleOne"
+                android:layout_marginLeft="8dp"
+                android:text="@string/result_artist_one" />
+
+            <TextView
+                style="@style/SearchMusicTitleStyle"
                 android:layout_alignParentRight="true"
                 android:layout_below="@id/favouriteTitleId"
                 android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_one" />
+                android:text="@string/result_lenght_one" />
 
+            <!-- Second line -->
             <TextView
-                android:id="@+id/favouriteTitleTwo"
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_below="@id/favouriteTitleOne"
+                android:id="@+id/resultTitleTwo"
+                style="@style/SearchMusicTitleStyle"
+                android:layout_below="@id/resultArtistOne"
                 android:layout_marginLeft="8dp"
                 android:text="@string/favourite_title_two" />
+            <TextView
+                android:id="@+id/resultArtistTwo"
+                style="@style/SearchResultArtistStyle"
+                android:layout_below="@id/resultTitleTwo"
+                android:layout_marginLeft="8dp"
+                android:text="@string/result_artist_two" />
 
             <TextView
-                style="@style/FavouriteMusicTitleStyle"
+                style="@style/SearchMusicTitleStyle"
                 android:layout_alignParentRight="true"
-                android:layout_below="@id/favouriteTitleOne"
+                android:layout_below="@id/resultArtistOne"
                 android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_two" />
+                android:text="@string/result_lenght_two" />
+            <!-- Third line -->
 
             <TextView
-                android:id="@+id/favouriteTitleThree"
-                style="@style/FavouriteMusicTitleStyle"
-                android:layout_below="@id/favouriteTitleTwo"
+                android:id="@+id/resultTitleThree"
+                style="@style/SearchMusicTitleStyle"
+                android:layout_below="@id/resultArtistTwo"
                 android:layout_marginLeft="8dp"
                 android:text="@string/favourite_title_three" />
 
             <TextView
-                style="@style/FavouriteMusicTitleStyle"
+                android:id="@+id/resultArtistThree"
+                style="@style/SearchResultArtistStyle"
+                android:layout_below="@id/resultTitleThree"
+                android:layout_marginLeft="8dp"
+                android:text="@string/result_artist_three" />
+
+            <TextView
+                style="@style/SearchMusicTitleStyle"
                 android:layout_alignParentRight="true"
-                android:layout_below="@id/favouriteTitleTwo"
+                android:layout_below="@id/resultArtistTwo"
                 android:layout_marginRight="8dp"
-                android:text="@string/favourite_times_three" />
+                android:text="@string/result_lenght_three" />
         </RelativeLayout>
 
         <TextView

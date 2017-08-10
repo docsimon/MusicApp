@@ -19,13 +19,15 @@
     <string name="result_artist_two">Queen</string>
     <string name="result_lenght_two">5:54</string>
     <string name="result_title_three">3. Jailhouse Rock</string>
-    <string name="result_artist_three">ELvis Presley (The King)</string>
+    <string name="result_artist_three">Elvis Presley (The King)</string>
     <string name="result_lenght_three">2:37</string>
     <string name="free_minutes_msg">You have 60 min of free music left</string>
     <string name="buy_minutes_button">Get unlimited minutes!</string>
-    <string name="main_title_search">Results for: %1$s</string>
+    <string name="main_title_search">Results for \"%1$s\"</string>
     <string name="result_lenght">Lenght</string>
     <string name="search_activity_title">Search Results</string>
+    <string name="search_empty">Please enter a search term</string>
+
 
 
 

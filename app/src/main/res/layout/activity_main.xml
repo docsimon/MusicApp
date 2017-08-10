@@ -17,6 +17,7 @@
                 android:textColor="@color/colorTopTitle" />
 
             <EditText
+                android:id="@+id/searchField"
                 style="@style/SearchField"
                 android:hint="@string/search_placeholder" />
 

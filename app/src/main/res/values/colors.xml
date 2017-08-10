@@ -6,5 +6,6 @@
     <color name="colorPlaceholder">#BDBDBD</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorHeadTitle">#bdbdbd</color>
+    <color name="colorBuyButton">#536DFE</color>
 
 </resources>

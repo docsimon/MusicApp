@@ -12,4 +12,7 @@
     <string name="favourite_times_two">20</string>
     <string name="favourite_title_three">3. Paganini - Caprice 24</string>
     <string name="favourite_times_three">18</string>
+    <string name="free_minutes_msg">You have 60 min of free music left</string>
+    <string name="buy_minutes_button">Get unlimited minutes!</string>
+
 </resources>

@@ -29,7 +29,11 @@
         <activity
             android:name=".MusicDetailActivity"
             android:label="@string/title_activity_music_detail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:parentActivityName=".ListResultsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListResultsActivity" />
+        </activity>
     </application>
 
 </manifest>

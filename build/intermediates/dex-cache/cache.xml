@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="82aa32f4b589cdf54f51376da401e3ab0a921e8b">
+        sha1="bfd3aa092559b07468c1518bed9041b5368bee5e">
         <dex dex="/Users/doc/Nanodegree/Android/MusicApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16b8f4b98696ad8270610937fa63a16c5796aba2/classes.dex" />
     </item>
     <item

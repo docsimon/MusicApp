@@ -12,21 +12,27 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/searchMainTitle"
+                android:id="@+id/musicMainTitle"
                 style="@style/MainTitleTextStyle"
                 android:layout_marginBottom="16dp"
                 android:text="@string/main_title_search"
                 android:textColor="@color/colorTopTitle" />
 
-            <TextView
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_gravity="center"
+                android:src="@drawable/musiclogo"/>
+
+            <ImageView
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/free_minutes_msg"
-                android:textColor="@color/colorTopTitle"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:layout_gravity="center"
+                android:src="@drawable/playercontrols"/>
+
+            <TextView
+                style="@style/GetMinutesTitle"
+                />
 
             <Button
                 style="@style/BuyButton"

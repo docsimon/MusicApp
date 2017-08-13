@@ -105,14 +105,7 @@
 
             <TextView
                 style="@style/GetMinutesTitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/free_minutes_msg"
-                android:textColor="@color/colorTopTitle"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                />
 
             <Button
                 style="@style/BuyButton"

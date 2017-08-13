@@ -20,16 +20,9 @@ public class MusicDetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         myBinding = DataBindingUtil.setContentView(this, R.layout.activity_music_detail);
-
-        String s = getIntent().getStringExtra("Result Title");
-
-
-        TextView mainTitle = myBinding.searchMainTitle;
-        String cippa =  getResources().getString(R.string.main_title_search, s);
-
-        mainTitle.setText(cippa);
-
-
+        String s = getIntent().getStringExtra("Music Title");
+        TextView mainTitle = myBinding.musicMainTitle;
+        //String cippa =  getResources().getString(R.string.main_title_search, s);
+        mainTitle.setText(s);
     }
-
 }

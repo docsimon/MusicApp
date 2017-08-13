@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ListResultsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/searchMainTitle"
+                style="@style/MainTitleTextStyle"
+                android:layout_marginBottom="16dp"
+                android:text="@string/main_title_search"
+                android:textColor="@color/colorTopTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/free_minutes_msg"
+                android:textColor="@color/colorTopTitle"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/BuyButton"
+                android:layout_marginBottom="16dp"
+                android:text="@string/buy_minutes_button" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

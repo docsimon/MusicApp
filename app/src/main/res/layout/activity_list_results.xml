@@ -103,16 +103,8 @@
                     android:text="@string/result_lenght_three" />
             </RelativeLayout>
 
-            <TextView
-                style="@style/GetMinutesTitle"
-                />
-
-            <Button
-                style="@style/BuyButton"
-                android:layout_marginBottom="16dp"
-                android:text="@string/buy_minutes_button" />
-
         </LinearLayout>
 
     </ScrollView>
+
 </layout>

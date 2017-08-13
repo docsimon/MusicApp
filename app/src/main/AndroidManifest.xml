@@ -34,6 +34,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ListResultsActivity" />
         </activity>
+        <activity android:name=".PaymentPageActivity"
+            android:label="@string/title_payment"
+            android:parentActivityName=".MusicDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MusicDetailActivity" />
+        </activity>
     </application>
 
 </manifest>

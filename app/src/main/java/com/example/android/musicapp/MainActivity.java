@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 // get the reference and content of the edit
                 EditText searchField = myBinding.searchField;
                 String query = searchField.getText().toString();
-                if (query.isEmpty()){
+                if (query.isEmpty()) {
                     displayAlertMsg();
-                }else {
+                } else {
                     // define the intent
                     Intent searchResultIntent = new Intent(MainActivity.this, ListResultsActivity.class);
                     // passing the search query to the intent
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void displayAlertMsg(){
+    private void displayAlertMsg() {
         String message = getResources().getString(R.string.search_empty);
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }

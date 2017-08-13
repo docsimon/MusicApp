@@ -6,11 +6,11 @@
     <string name="song_title">Title</string>
     <string name="times_played">Times played</string>
     <string name="favourite_title">Your favourite music</string>
-    <string name="favourite_title_one">1. Hotel California</string>
+    <string name="favourite_title_one">1. <u>Hotel California</u></string>
     <string name="favourite_times_one">25</string>
-    <string name="favourite_title_two">2. Beethoven 7 Symphony</string>
+    <string name="favourite_title_two">2. <u>Beethoven 7 Symphony</u></string>
     <string name="favourite_times_two">20</string>
-    <string name="favourite_title_three">3. Paganini - Caprice 24</string>
+    <string name="favourite_title_three">3. <u>Paganini - Caprice 24</u></string>
     <string name="favourite_times_three">18</string>
     <string name="result_title_one">1. Paradise city</string>
     <string name="result_artist_one">Guns \'n Roses</string>
@@ -28,4 +28,7 @@
     <string name="search_activity_title">Search Results</string>
     <string name="search_empty">Please enter a search term</string>
     <string name="title_activity_music_detail">Music detail</string>
+    <string name="title_payment">Payment</string>
+    <string name="main_title_payment">PayPal Android SDK</string>
+    <string name="main_descr_payment">The PayPal Android SDK makes it easy to add PayPal payments to mobile apps. The SDK supports two use cases for making payments - Single Payment and Future Payments - and a third use case for obtaining information about the customer - Profile Sharing</string>
 </resources>
